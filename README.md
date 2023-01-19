@@ -41,7 +41,7 @@ root.mainloop()
 ```
 
 The co-ordinates where the window should open.
-```
+```pythonpython
 x="0"
 y="0"
 
@@ -49,13 +49,13 @@ root.geometry(f'250x150+{x}+{y}')
 ```
 
 This remove the titalbar from the UI and icon from taskbar
-```
+```python
 # to remove the titalbar 
 root.overrideredirect(True)
 
 ```
 This is how to make the window transparent
-```
+```python
 root.attributes("-transparentcolor","red")
 roo.config(bg="red")
 ```
