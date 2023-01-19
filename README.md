@@ -38,7 +38,7 @@ root.wm_attributes("-topmost", 1)
 
 
 root.mainloop()
-```
+```python
 
 The co-ordinates where the window should open.
 ```pythonpython
